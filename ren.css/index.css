@@ -1,0 +1,406 @@
+#head{
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+	cursor: pointer;
+}
+#head .car:hover{
+	background-color: #fff;
+	color: orangered;
+}
+.neikuang{
+	width: 1226px;
+	height: 100%;
+	/* background-color: pink; */
+	margin: 0 auto;
+}
+.head-left{
+/* 	width: 100px;
+	height: 40px;
+	background-color: hsl(250, 60%, 070%);
+	float: left; */
+}
+.head-left a:hover{
+	color: #fff;
+}
+.biaoti{
+	float: left;
+	color: #b0b0b0;
+	margin-right: 6px;
+	line-height: 40px;
+	font-size: 12px;
+
+}
+.biaoti1{
+	margin-right: 0;
+}
+.head-right{
+    float: right;	
+}
+.head-right a:hover{
+	color: #fff;
+}
+.biaoti2{
+	margin-right: 0;
+}
+#head .car{
+	width: 128px;
+	height: 40px;
+	float: right;
+	line-height: 40px;
+	font-size: 20px;
+	font-family: "微软雅黑","宋体";
+	text-align: center;
+	color: #b0b0b0;
+}
+.buy{
+	font-size: 12px;
+}
+#daohang{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	float: left: 
+}
+.mi{
+	width: 55px;
+	height: 55px;
+	background-color: #fff;
+	float: left;
+	margin-top: 22px;
+}
+.biaoti4{
+	margin-left: 188px;
+}
+.biaoti3{
+	float: left;
+	color: black;
+	margin-right: 16px;
+	/* line-height: 42px; */
+	font-size: 16px;
+	margin-top: 40px;
+}
+#daohang a:hover{
+	color: orangered;
+}
+.box{
+	width: 58px;
+	height: 39px;
+	margin-left: 123px;
+	border-bottom-color: wheat;
+}
+#liebiao{
+	width: 1226px;
+	height: 170px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 14px;
+}
+.liebiao-left{
+	width: 228px;
+	height: 164px;
+	background-color: wheat;
+	float: left;
+	padding: 3px;
+}
+.liebiao-left li{
+	width: 76px;
+	height: 63px;
+	border-color: pink;
+	text-align: center;
+	padding-top: 19px;
+	float: left;
+	/* color: #000; */
+}
+.liebiao-left li a{
+	font-size: 24px;
+	color: #000;
+}
+.xuangou{
+	font-size: 12px;
+	display: block;
+}
+.liebiao-right{
+	width: 316px;
+	height: 170px;
+	float: left;
+	background-color: yellow;
+	margin-left: 15px;
+	transition: all 0.4s linear
+}
+.liebiao-right:hover{
+	box-shadow: 0 19px 28px -8px #333;
+}
+.liebiao-right2{
+	margin-left: 14px;
+}
+.xiaomi{
+	width: 1226px;
+	height: 40px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 44px;
+}
+.wenzi{
+	font-size: 22px;
+	font-weight: 100;
+	color: #333333;
+}
+.shangpin{
+	width: 1226px;
+	height: 340px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.tuwen{
+	width: 234px;
+	height: 340px;
+	background-color: #fafafa;
+	float: left;
+	margin-left: 14px;
+}
+.tuwen1{
+	margin-left: 0px;
+}
+.box5{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	background-color: #fafafa;
+	margin-top: 54px;
+
+}
+.box6{
+	width: 234px;
+	height: 42px;
+
+	background-color: #fafafa;
+	padding: 42px 0;
+}
+.box6 h3{
+	font-size: 14px;
+	color: #212121;
+	text-align: center;
+}
+.box6 h2{
+	font-size: 12px;
+	color: #c3b0b0;
+	text-align: center;
+}
+.box6 h4{
+	font-size: 14px;
+	color: #ff6709;
+	text-align: center;
+}
+#banner{
+	width: 1226px;
+	height: 460px;
+	background-color: #f7c05a;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-img{
+	width: 1226px;
+	height: 460px;
+}
+.banner-liebiao{
+	width: 234px;
+	height: 420px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px 0;
+	z-index: 999;
+}
+.banner-liebiao li{
+	width: 174px;
+	height: 42px;
+	/* background-color: #141619; */
+	padding: 0 30px;
+	color: #fff;
+	line-height: 42px;
+}
+.banner-liebiao li:hover{
+	background-color: orangered;
+}
+
+.banner-right{
+	float: right;
+
+}
+#banner .banner-lbtn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	left: 234px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 69px;
+	font-size: 40px;
+
+}
+#banner .banner-rbtn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 69px;
+	font-size: 40px;
+
+}
+.banner-rbtn:hover{
+	background-color: yellow;
+
+}
+.banner-lbtn:hover{
+	background-color: yellow;
+
+}
+.jiadian{
+		width: 1226px;
+	height: 40px;
+/* 	background-color: #fff; */
+	margin: 0 auto;
+	margin-top: 44px;
+}
+#jiadian{
+	width: 1226px;
+	height: 628px;
+	margin: 0 auto;
+/* 	background-color: #fafafa; */
+}
+.jiadian-active hi{
+
+
+
+
+
+	  
+}
+.jiadian-left{
+	width: 234px;
+	height: 628px;
+/* 	background-color: #fff; */
+	float: left;
+
+}
+.jiadian-right{
+	width: 978px;
+	height: 628px;
+	/* margin-left: 14px; */
+/* 	background-color: #fafafa; */
+	float: right;
+}
+.jiandian-right1{
+	width: 234px;
+	height: 253px;
+	padding: 34px 0 20px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background-color: #fafafa;
+	float: left;
+	position: relative;
+	transition: all .8s linear;
+	overflow: hidden;
+}
+.jiadian-active{
+	width: 234px;
+	height: 100px;
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+/* 	background-color: pink; */
+
+}
+.jiandian-right1:hover .jiadian-active{
+	bottom: 0;
+	background-color: orangered;
+	transition: all .3s linear;
+}
+.jiandian-right1:hover{
+	box-shadow: 0 0 20px 5px #333;
+	transform: translateY(-10px);
+}
+.jiandian-right2{
+	margin-left: 0;
+}
+.jiadian-righttu{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 18px;
+}
+#banner .lunbo{
+	width: 90px;
+	height: 10px;
+	position: absolute;
+	right: 35px;
+	/* top: 430px; */
+	bottom: 25px;
+	background-color: red;
+	left: auto;
+}
+/* .lunbo h4{
+	font-size: 18px;
+	text-align: right;
+	color: #6666;
+	float: right;
+	margin-right: 16px; */
+/* } */
+.jiandian-right1 h3{
+	font-size: 14px;
+	color: #212121;
+	text-align: center;
+}
+.jiandian-right1 h2{
+	font-size: 12px;
+	color: #c3b0b0;
+	text-align: center;
+}
+.jiandian-right1 h4{
+	font-size: 14px;
+	color: #ff6709;
+	text-align: center;
+}
+#banner-xia{
+	width: 1226px;
+	height: 420px;
+	background-color: wheat;
+	margin: 0 auto;
+}
+.banner-xia1{
+	width: 296px;
+	height: 374px;
+	float: left;
+	background-color: yellow;
+	border-top: 1px solid black;
+	padding: 45px 0 0 ;
+	/* margin-bottom: 14px; */
+}
+.banner-xia1 h2{
+	width: 276px;
+	height: 24px;
+	margin: 0 10px 18px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+.banner-xia11{
+	width: 296px;
+	height: 332px;
+	background-color: pink;
+}
+.banner-xia11 h1{
+	font-weight: 400;
+	font-size: 20px;
+/* 	line-height: 1.25px; */
+	text-align: center;
+
+}
